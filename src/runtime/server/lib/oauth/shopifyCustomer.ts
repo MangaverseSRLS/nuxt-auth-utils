@@ -192,7 +192,6 @@ export function defineOAuthShopifyCustomerEventHandler({
       }
     )
       .then((d) => {
-        console.log(d);
         return d;
       })
       .then((d) => (d as { data: ShopifyCustomer }).data)
